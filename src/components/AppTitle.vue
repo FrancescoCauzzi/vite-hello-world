@@ -19,5 +19,6 @@ h1 {
   color: rgb(0, 255, 42);
   font-weight: bolder;
   text-align: center;
+  margin-bottom: 30px;
 }
 </style>

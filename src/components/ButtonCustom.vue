@@ -21,6 +21,7 @@ button {
   padding: 5px 5px 5px 5px;
   font-size: 1.3em;
   font-weight: bolder;
+  cursor: pointer;
 }
 span {
   color: red;
