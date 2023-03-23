@@ -1,16 +1,23 @@
 <script>
-import Button from "./components/Button.vue";
+import ButtonCustom from "./components/ButtonCustom.vue";
+import AppTitle from "./components/AppTitle.vue";
 
 export default {
   components: {
-    Button,
+    ButtonCustom,
+    AppTitle,
   },
 };
 </script>
 
 <template>
-  <h1>Here is a child component!</h1>
-  <Button />
+  <header>
+    <AppTitle />
+  </header>
+  <main>
+    <ButtonCustom />
+  </main>
+  <footer></footer>
 </template>
 
 <style></style>
