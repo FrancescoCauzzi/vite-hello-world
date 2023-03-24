@@ -10,7 +10,7 @@ export default {
   <div class="__jumbo">
     <div class="__image">
       <img
-        src="../assets/images/spiderman.jpg"
+        src="../../public/images/spiderman.jpg"
         alt="Cannot retrieve the image"
         srcset=""
       />
@@ -24,7 +24,7 @@ export default {
   </div>
 </template>
 
-<style>
+<style scoped>
 .__image {
   width: 50%;
 }

@@ -14,7 +14,7 @@ export default {
   </button>
 </template>
 
-<style>
+<style scoped>
 button {
   height: 40px;
   border-radius: 25px;
